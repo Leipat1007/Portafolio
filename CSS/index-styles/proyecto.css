@@ -1,3 +1,5 @@
+@import url(../Variables.css);
+@import url(../animaciones.css);
 .proyecto {
     text-align: center;
     min-height: auto;

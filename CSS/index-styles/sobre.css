@@ -1,4 +1,5 @@
 @import url(../Variables.css);
+@import url(../animaciones.css);
 .sobre {
     display: flex;
     justify-content: center;
