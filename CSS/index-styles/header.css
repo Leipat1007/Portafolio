@@ -1,0 +1,37 @@
+@import url(../Variables.css);
+.head {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.head.cambio {
+    background: var(--bg-color);
+}
+.head .headLogo {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 600;
+}
+.head .headNavegacion .headNavegacion-link{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    font-weight: 500;
+    margin-left: 2rem;
+    transition: .3s;
+}
+.head .headNavegacion .headNavegacion-link:hover,
+.head .headNavegacion .headNavegacion-link.activo {
+    color: var(--main-color);
+}
+#menu-icono {
+    font-size: 2.5rem;
+    color: var(--text-color);
+    cursor: pointer;
+    display: none;
+}

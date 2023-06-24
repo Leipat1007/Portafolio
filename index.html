@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/generalStyle.css">
+    <link rel="stylesheet" href="CSS/style-index.css">
+</head>
+<body>
+    <!-- Diseño del header -->
+    <header class="head">
+        <a href="#inicio" class="headLogo">Aldair S.S.</a>
+        <div class="bx bx-menu" id="menu-icono"></div>
+        <nav class="headNavegacion">
+            <a href="#inicio" class="headNavegacion-link activo">Inicio</a>
+            <a href="#sobremi" class="headNavegacion-link">Sobre mi</a>
+            <a href="#skills" class="headNavegacion-link">Skills</a>
+            <a href="#hobbie" class="headNavegacion-link">Hobbies</a>
+            <a href="#formacion" class="headNavegacion-link">Formacion</a>
+            <a href="#proyecto" class="headNavegacion-link">Proyectos</a>
+            <a href="#contacto" class="headNavegacion-link">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <!-- diseño del inicio -->
+        <section class="inicio" id="inicio">
+            <div class="container">
+                <h1 class="inicioTitulo">Hola, soy <span>Aldair Salgado Sanchez</span></h1>
+                <div class="animacionTexto">
+                    <h3 class="texto">Desarrollador Frontend</h3>
+                </div>
+                <p class="inicioTexto">Soy formado en analisis y desarrollo de sistemas de información, formación impartida en el Servicio nacional de aprendizaje (SENA), en la ciudad de Valledupar-Cesar-Colombia. Actualmente me encuentro participando en el proyecto de Oracle ONE en Alura Latam</p>
+                <div class="caja-btn">
+                    <a href="#contacto" class="btn">Contactame</a>
+                    <a href="Documento/CV Aldair Salgado Desarrollador frontend.pdf" download="CV Aldair Salgado Desarrollador frontend" target="_blank" class="btn">Descargar CV</a>
+                </div>
+            </div>
+            <div class="inicioSocial">
+                <a href="https://web.facebook.com/aldair.salgado.3344/ " target="_blank" class="inicioSocial-btn"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/salgadodeluna/" target="_blank" class="inicioSocial-btn"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://www.linkedin.com/in/aldair-romario-salgado-sanchez-/" target="_blank" class="inicioSocial-btn"><i class='bx bxl-linkedin' ></i></a>
+            </div>
+            <div class="inicioImagen"></div>
+        </section>
+        <!-- seccion sobre mi -->
+        <section class="sobre" id="sobremi">
+            <h2 class="sobreTitulo">Sobre <span>Mi</span></h2>
+            <div class="sobreFoto">
+                <img src="Image/Sobre.jpg" alt="Aldair Salgado Sanchez" class="sobreFoto-img">
+                <span class="spin"></span>
+            </div>
+            <div class="sobreContenido">
+                <h3 class="sobreContenido-titulo">Desarrollador Frontend</h3>
+                <p class="sobreContenido-texto">Estudiante de desarrollo web Front-End, con actitud y gran deseo de adquirir experiencia en el mercado competitivo. Poseo conocimiento en HTML, CSS y JavaScript, los cuales son considerados en la actualidad como grandes lenguajes tanto de maquetación y desarrollo para el diseño orientado al usuario. <br>
+                    Soy una persona que siempre esta interesada en el trabajo en equipo, en aprender de los demás, ayudar en la resolución de problemas dentro del equipo, me adapto con facilidad lo que en proporción me ayuda a siempre estar dispuesto a seguir adelante. Poseo gran capacidad de comunicación y gran constancia lo que me ayuda a no decaer en ningún proceso.</p>
+            </div>
+        </section>
+        <!-- seccion Skills -->
+        <section class="skills" id="skills">
+            <h2 class="skillsTitulo">Mis <span>Skills</span></h2>
+            <div class="skill-fila">
+                <div class="skill-columna">
+                    <h3 class="titulo">Hard Skills</h3>
+                    <div class="caja-skill">
+                        <div class="progreso">
+                            <h3 class="progresoTitulo">HTML <span>70%</span></h3>
+                            <div class="barra"><span></span></div>
+                        </div>
+                        <div class="progreso">
+                            <h3 class="progresoTitulo">CSS <span>65%</span></h3>
+                            <div class="barra"><span></span></div>
+                        </div>
+                        <div class="progreso">
+                            <h3 class="progresoTitulo">JavaScripts <span>50%</span></h3>
+                            <div class="barra"><span></span></div>
+                        </div>
+                        <div class="progreso">
+                            <h3 class="progresoTitulo">React.js <span>20%</span></h3>
+                            <div class="barra"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-columna">
+                    <h3 class="titulo">Soft Skills</h3>
+                    <div class="caja-skill">
+                        <div class="progreso">
+                            <h3 class="progresoTitulo">Liderazgo <span>70%</span></h3>
+                            <div class="barra"><span></span></div>
+                        </div>
+                        <div class="progreso">
+                            <h3 class="progresoTitulo">Resolucion de problemas <span>65%</span></h3>
+                            <div class="barra"><span></span></div>
+                        </div>
+                        <div class="progreso">
+                            <h3 class="progresoTitulo">Comunicación <span>85%</span></h3>
+                            <div class="barra"><span></span></div>
+                        </div>
+                        <div class="progreso">
+                            <h3 class="progresoTitulo">Trabajo en equipo <span>75%</span></h3>
+                            <div class="barra"><span></span></div>
+                        </div>
+                        <div class="progreso">
+                            <h3 class="progresoTitulo">Adaptación <span>95%</span></h3>
+                            <div class="barra"><span></span></div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+        </section>
+        <!-- seccion de hobbies -->
+        <section class="hobbie" id="hobbie">
+            <h2 class="hobbieTitulo">Hob<span>bies</span></h2>
+            <div class="hobbieContenido">
+                <div class="tarjetas">
+                    <div class="tarjeta">
+                        <div class="tarjetaIcon">
+                            <i class='bx bxs-basketball' ></i>
+                        </div>
+                        <h2 class="tarjetaTitulo">Baloncesto</h2>
+                    </div>
+                </div>
+                <div class="tarjetas">
+                    <div class="tarjeta">
+                        <div class="tarjetaIcon">
+                            <i class='bx bxs-tv' ></i>
+                        </div>
+                        <h2 class="tarjetaTitulo">Ver TV</h2>
+                    </div>
+                </div>
+                <div class="tarjetas">
+                    <div class="tarjeta">
+                        <div class="tarjetaIcon">
+                            <i class='bx bxl-deezer' ></i>
+                        </div>
+                        <h2 class="tarjetaTitulo">Escuchar Musica</h2>
+                    </div>
+                </div>
+                <div class="tarjetas">
+                    <div class="tarjeta">
+                        <div class="tarjetaIcon">
+                            <i class='bx bxs-book-reader'></i>
+                        </div>
+                        <h2 class="tarjetaTitulo">Leer</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- seccion formacion -->
+        <section class="formacion" id="formacion">
+            <h2 class="formacionTitulo">Forma<span>cion</span></h2>
+            <div class="container">
+                <div class="formacionContenido">
+                    <div class="tarjeta">
+                        <div class="tarjetaImg sena"></div>
+                        <span class="tarjetaInsti">Servicio nacional de aprendizaje</span>
+                        <p class="tarjetaFormacion">Tecnologo en analisis y desarrollo de sistemas de información</p>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="tarjetaImg alura"></div>
+                        <span class="tarjetaInsti">Alura Latam</span>
+                        <p class="tarjetaFormacion">Desarrollador Frontend</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- seccion de Proyectos -->
+        <section class="proyecto" id="proyecto">
+            <h2 class="proyectoTitulo">Conoce mis <span>Proyectos</span></h2>
+            <div class="proyectoContenido">
+                <div class="tarjetas">
+                    <div class="tarjeta">
+                        <div class="proyectoImagen encriptador"></div>
+                        <h2 class="titulo">Encriptador Alura</h2>
+                        <p class="descripcion">Se realizo un encriptador de palabras, se desarrollo con HTML5, CSS y JavaScript. En este proyecto se implemento gran conocimiento y mucho esfuerzo.</p>
+                        <div class="caja-btn">
+                            <a href="https://github.com/Leipat1007/Encriptador" target="_blank" class="btn">Repositorio</a>
+                            <a href="https://leipat1007.github.io/Encriptador/" target="_blank" class="btn">Demo</a>
+                        </div>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="proyectoImagen miniAlura"></div>
+                        <h2 class="titulo">Mini-Alura</h2>
+                        <p class="descripcion">Un proyecto donde quisimos reclear un mini market con parte de los cursos que se encuentran en Alura Latam. Fue un proyecto donde empezamos a conocer muchos conceptos de CSS.</p>
+                        <div class="caja-btn">
+                            <a href="https://github.com/Leipat1007/Flexbox" target="_blank" class="btn">Repositorio</a>
+                            <a href="https://leipat1007.github.io/Flexbox/" target="_blank" class="btn">Demo</a>
+                        </div>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="proyectoImagen apeperia"></div>
+                        <h2 class="titulo">Apeperia</h2>
+                        <p class="descripcion">En este proyecto se intento reclear como seria la pagina web de una empresa que se dedica al deserrollo de aplicaciones web y mobiles.</p>
+                        <div class="caja-btn">
+                            <a href="https://github.com/Leipat1007/Apeperia" target="_blank" class="btn">Repositorio</a>
+                            <a href="https://leipat1007.github.io/Apeperia/" target="_blank" class="btn">Demo</a>
+                        </div>
+                    </div>
+                    <div class="tarjeta">
+                        <div class="proyectoImagen frutas"></div>
+                        <h2 class="titulo">Frutas & Frutos</h2>
+                        <p class="descripcion">Para este proyecto se logro la recreación de la aplicacion web de una empresa que dedica a dar consejos sobre la alimentación, sus beneficios y a compartir recetas para el aprovechamiento del mismo.</p>
+                        <div class="caja-btn">
+                            <a href="https://github.com/Leipat1007/Frutasfrutos" target="_blank" class="btn">Repositorio</a>
+                            <a href="https://leipat1007.github.io/Frutasfrutos/" target="_blank" class="btn">Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- seccion de contacto -->
+        <section class="contacto" id="contacto">
+            <h2 class="contactoTitulo">Contacta<span>me</span></h2>
+            <form class="contactoFormulario">
+                <div class="caja-input">
+                    <div class="inputo">
+                        <input type="text" placeholder="Nombre completo" required>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="inputo">
+                        <input type="text" placeholder="Direccion de Email" required>
+                        <span class="focus"></span>
+                    </div>
+                </div>
+                <div class="caja-input">
+                    <div class="inputo">
+                        <input type="number" placeholder="Numero de contacto" required>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="inputo">
+                        <input type="text" placeholder="Asunto:" required>
+                        <span class="focus"></span>
+                    </div>
+                </div>
+                <div class="textoarea">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Redacte aqui su mensaje" required></textarea>
+                    <span class="focus"></span>
+                </div>
+                <div class="caja-btn">
+                    <button type="submit" class="btn">Enviar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- diseño del footer -->
+    <footer class="footer">
+        <div class="footerTexto">
+            <p>&copy; Todos los derechos reservados Aldair Salgado 2023.</p>
+        </div>
+        <div class="icono-up">
+            <a href="#inicio"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+    </footer>
+    <script src="JS/index.js"></script>
+</body>
+</html>

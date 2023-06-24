@@ -1,0 +1,78 @@
+@import url(../Variables.css);
+.skills {
+    text-align: center;
+    min-height: auto;
+    padding-bottom: 7rem;
+    background: var(--bg-color);
+}
+.skills .skillsTitulo {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+}
+.skills .skill-fila {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.skills .skill-fila .skill-columna{
+    flex: 1 1 40rem;
+}
+.skills .skill-fila .skill-columna .titulo {
+    font-size: 2rem;
+    margin: 0 0 1rem;
+}
+.skills .skill-fila .skill-columna .caja-skill {
+    position: relative;
+    border: .2rem solid var(--main-color);
+    border-radius: .6rem;
+    padding: .5rem 1.5rem;
+    text-align: left;
+}
+.skills .skill-fila .skill-columna .caja-skill .progreso {
+    padding: 1rem 0;
+}
+.skills .skill-fila .skill-columna .caja-skill .progreso .progresoTitulo {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.skills .skill-fila .skill-columna .caja-skill .progreso .barra {
+    height: 2.5rem;
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    padding: .5rem;
+    margin: 1rem 0;
+}
+.skills .skill-fila .skill-columna .caja-skill .progreso .barra span {
+    display: block;
+    height: 100%;
+    border-radius: .3rem;
+    background: var(--main-color);
+}
+.skills .skill-fila .skill-columna:nth-child(1) .caja-skill .progreso:nth-child(1) .barra span {
+    width: 70%;
+}
+.skills .skill-fila .skill-columna:nth-child(1) .caja-skill .progreso:nth-child(2) .barra span {
+    width: 65%;
+}
+.skills .skill-fila .skill-columna:nth-child(1) .caja-skill .progreso:nth-child(3) .barra span {
+    width: 50%;
+}
+.skills .skill-fila .skill-columna:nth-child(1) .caja-skill .progreso:nth-child(4) .barra span {
+    width: 20%;
+}
+.skills .skill-fila .skill-columna:nth-child(2) .caja-skill .progreso:nth-child(1) .barra span {
+    width: 70%;
+}
+.skills .skill-fila .skill-columna:nth-child(2) .caja-skill .progreso:nth-child(2) .barra span {
+    width: 65%;
+}
+.skills .skill-fila .skill-columna:nth-child(2) .caja-skill .progreso:nth-child(3) .barra span {
+    width: 85%;
+}
+.skills .skill-fila .skill-columna:nth-child(2) .caja-skill .progreso:nth-child(4) .barra span {
+    width: 75%;
+}
+.skills .skill-fila .skill-columna:nth-child(2) .caja-skill .progreso:nth-child(5) .barra span {
+    width: 95%;
+}

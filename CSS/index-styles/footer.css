@@ -1,0 +1,45 @@
+@import url(../Variables.css);
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--segundo-bg-color);
+}
+.footer .footerTexto p {
+    font-size: 1.6rem;
+}
+.footer .icono-up a {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background: var(--main-color);
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
+    z-index: 1;
+    overflow: hidden;
+}
+.footer .icono-up a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: .5s;
+    background: var(--bg-color);
+}
+.footer .icono-up a:hover::before{
+    width: 100%;
+}
+.footer .icono-up a i {
+    font-size: 2.4rem;
+    color: var(--bg-color);
+}
+.icono-up a:hover i {
+    color: var(--main-color);
+}

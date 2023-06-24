@@ -1,0 +1,32 @@
+.hobbie {
+    min-height: auto;
+    padding-bottom: 7rem;
+    background: var(--segundo-bg-color);
+    text-align: center;
+}
+.hobbie .hobbieTitulo {
+    font-size: 4rem;
+}
+.hobbie .hobbieContenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+}
+.hobbieContenido .tarjetas {
+    width: 30%;
+    padding: 2rem 4rem ;
+    height: 35vh;
+    flex-wrap: wrap;
+    border-radius: .6rem;
+    background: var(--bg-color);
+    border: .2rem solid var(--bg-color);
+    margin-bottom: 2rem;
+}
+.hobbieContenido .tarjetas .tarjeta .tarjetaIcon {
+    font-size: 10rem;
+}
+.hobbieContenido .tarjetas .tarjeta .tarjetaTitulo {
+    font-size: 4rem;
+}

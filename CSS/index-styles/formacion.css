@@ -1,0 +1,51 @@
+@import url(../Variables.css);
+.formacion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.formacion .formacionTitulo {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+.formacion .container {
+    width: 90%;
+}
+.formacion .container .formacionContenido {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.formacion .container .formacionContenido .tarjeta {
+    text-align: center;
+    display:flex;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    border: .2rem solid var(--segundo-bg-color);
+    border-radius: 2rem;
+}
+.formacion .container .formacionContenido .tarjeta .tarjetaImg {
+    width: 25rem;
+    height: 25rem;
+}
+.formacion .container .formacionContenido .tarjeta .tarjetaInsti {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.formacion .container .formacionContenido .tarjeta .tarjetaFormacion {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    width: 80%;
+}
+.sena {
+    background: url(../../Image/Sena.png)no-repeat center / cover;
+}
+.alura {
+    background: url(../../Image/Alura.png)no-repeat center / cover;
+}
