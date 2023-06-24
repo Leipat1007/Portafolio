@@ -64,7 +64,9 @@
     resize: none;
 }
 .contacto .contactoFormulario .caja-btn {
-    cursor: pointer;
     width: 15rem;
     margin: 0 auto;
+}
+.contacto .contactoFormulario .caja-btn .btn {
+    cursor: pointer;
 }
